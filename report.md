@@ -1,16 +1,19 @@
 ##<p style='text-align: center;'>Indian Mood Throughout the Day Inferred from Twitter</p>
 --------
 
-###<p style='text-align: center;'>Anmol Gulati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buddha Prakash</p>
+###<p style='text-align: center;'>Anmol Gulati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buddha Prakash</p>git 
 
 ##Abstract
 ---------
+
 We aim to develop a robust system for analysing Tweets for emotion. And further apply the system to identify and analyse the national psyche as expressed on Twitter. We present a lexicon-based apprach to extracting sentiment from text. We apply a state of the art approach to perform the normalization of tweets. We then compare and contrast various lexicon sources based on their performance in the polarity classification task. We consider three methods, namely Bing Liu's opinion lexicon, AFINN sentiment lexicon and sentiwordnet and find out that sentiwordnet generally performs better. We then study and analyze the temporal and geographical variations of sentiments of the whole country by considering all the geocoded tweets, tweeted from the country.
 
 ##Introduction
 ----------------
+
 In the past decade, new forms of communication, such as microblogging and text messaging have emerged and become ubiquitous. 
-While there is no limit to the range of information conveyed by tweets and texts, often these short messages are used to share opinions and sentiments that people have about what is going on in the world around them.Over the past few years, Twitter has become very popular and has also been described as "The SMS of the Internet" .According to the latest Twitter entry on Wikipedia, the number of Twitter users has climbed to 500 million and the number of tweets published on Twitter every day is over 340 million$^{[1]}$<br><br>
+While there is no limit to the range of information conveyed by tweets and texts, often these short messages are used to share opinions and sentiments that people have about what is going on in the world around them.Over the past few years, Twitter has become very popular and has also been described as "The SMS of the Internet" .According to the latest Twitter entry on Wikipedia, the number of Twitter users has climbed to 500 million and the number of tweets published on Twitter every day is over 340 million$^{[1]}$
+
 
 ##Data Description
 -------------------
@@ -18,6 +21,11 @@ Tweets are short messages restricted to 140 characters in length.Due to the natu
 __Emoticons__ : These are facial expressions signifying the user's mood,pictorially represented using punctuation and letters.<br>
 __Target__    : Twitter users often use __'@'__ to refer to other users on the microblog.<br>
 __Hastags__   : Hashtags are words prefixed with __'#'__ and are used to mark topics.Users often use hashtags primarily  to increase visibility of their tweets.
+
+##Twitter API
+--------------
+Twitter exposes its data via an Application Programming Interface, (API). Twitter itself offers the functionality where researchers can search for tweets pertaining to a query. Twitter Search provides a __GET Search API__ so that we can search for tweets in an automated fashion.GET allows to stream tweets on specific queries based on many characteristics as language,country,location,particular user and many more.<br>
+In our work, we wrote a code for the GET Search API which to stream tweets specifically from India.
 
 ##PreProcessing
 -----------------------------------
@@ -74,9 +82,8 @@ Based on our experiments we got the following accuracies of the above methods:<b
 | SentiWordNet                 |        67.34              |
 
 <div style="page-break-after: always;"></div>
-
 ##References
-
+<pre>
 [1] : <a href>http://en.wikipedia.org/wiki/Twitter</a>
     
 [2] : <a href>http://norvig.com/spell-correct.html</a>
@@ -89,7 +96,7 @@ Based on our experiments we got the following accuracies of the above methods:<b
       "Good Friends, Bad News - Affect and Virality in Twitter", SocialComNet 2011.
 
 [5] : <a href>http://sentiwordnet.isti.cnr.it</a>
-
+</pre>
 
 
 
