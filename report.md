@@ -1,8 +1,8 @@
 ##<p style='text-align: center;'>Indian Mood Throughout the Day Inferred from Twitter</p>
 --------
 
-###<p style='text-align: center;'>Anmol Gulati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pawan Goyal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buddha Prakash</p>
-####<p style='text-align: center;'>IIT Kharagpur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Kharagpur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Kharagpur</p>
+###<p style='text-align: center;'>Anmol Gulati<sup>[1]</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pawan Goyal<sup>[1]</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buddha Prakash<sup>[1]</sup></p>
+
 ##Abstract
 ---------
 
@@ -10,6 +10,7 @@ We aim to develop a robust system for analysing Tweets for emotion. And further 
 
 ##Introduction
 ----------------
+
 
 In the past decade, new forms of communication, such as microblogging and text messaging have emerged and become ubiquitous. 
 While there is no limit to the range of information conveyed by tweets and texts, often these short messages are used to share opinions and sentiments that people have about what is going on in the world around them.Over the past few years, Twitter has become very popular and has also been described as "The SMS of the Internet" .According to the latest Twitter entry on Wikipedia, the number of Twitter users has climbed to 500 million and the number of tweets published on Twitter every day is over 340 million<sup>[1]</sup>
