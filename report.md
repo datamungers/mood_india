@@ -85,7 +85,7 @@ Based on our experiments we got the following accuracies of the above methods:<b
 
 <div style="page-break-after: always;"></div>
 ##References
-[1] : [an example](http://example.com/ "Title")
+[1] : [Twitter](http://en.wikipedia.org/wiki/Twitter "Twitter")
     
 [2] : <a href>http://norvig.com/spell-correct.html</a>
     
