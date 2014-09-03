@@ -39,10 +39,7 @@ In our approach,data pre-processing is necessary in order to perform any data mi
 3. __Tokenization and Conversion to Lower Case__<br>
     Tokenization of the tweets is then done to break the stream of text into tokens.These tokens are then also converted to lower case to maintain uniformity.<br><br>
 4. __Removing Reduntant Characters__<br>
-    Lengthening by character repitition is widely done by twitter users to indicate heightened emotion but in English, sequences of continous three or more identical letters are basically unattested in the standard lexicon. So it becomes, very essential to remove the reduntant characters in a word to later be able to map them onto the words in the lexicon.<br>For example, "Go SF Giants! Such an amaazzzzzing feelin’!!!! \m/ :D".<br>Here "amaazzzing" gets converted to "amaazzing" and this becomes essential in the later stage of our pre-processing methodology.<br><br>
-
-<br><br>
-
+    Lengthening by character repitition is widely done by twitter users to indicate heightened emotion but in English, sequences of continous three or more identical letters are basically unattested in the standard lexicon. So it becomes, very essential to remove the reduntant characters in a word to later be able to map them onto the words in the lexicon.<br>For example, "Go SF Giants! Such an amaazzzzzing feelin’!!!! \m/ :D".<br>Here "amaazzzing" gets converted to "amaazzing" and this becomes essential in the later stage of our pre-processing methodology.<br><br><br><br>
 5. __Spell Correction__<br>
     We perform spelling correction in order to map the mispelled words to their nearest correct word form. We use the a really powerful spell correction algorithm developed by Peter Norvig<sup>[2]</sup><br><br>
 6. __Removing Stop Words__<br>
