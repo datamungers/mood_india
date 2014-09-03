@@ -31,6 +31,7 @@ In our work, we wrote a code for the GET Search API which to stream tweets speci
 -----------------------------------
 
 In our approach,data pre-processing is necessary in order to perform any data mining functionality. It becomes even more essential to our method because we use a lexicon-based approach for sentimental polarity classification.<br><br>
+
 1. __Removing URL's, Image links and Retweets __<br>
     In general, URLs,Image links and Retweets do not contribute to analyze the sentiment in the informal text.<br>For example consider the sentence "@JohnDoe I lost all my bets at www.win.com :(".<br> Actually the above tweet is negative but because of the presence of the word "win" it might get considered as a Positive Tweet. In order to avoid this sort of failures, we must employ a technique to remove URL's,Image Links and Retweets.<br><br>
 2. __Removing Special Characters__<br>
@@ -40,7 +41,7 @@ In our approach,data pre-processing is necessary in order to perform any data mi
 4. __Removing Reduntant Characters__<br>
     Lengthening by character repitition is widely done by twitter users to indicate heightened emotion but in English, sequences of continous three or more identical letters are basically unattested in the standard lexicon. So it becomes, very essential to remove the reduntant characters in a word to later be able to map them onto the words in the lexicon.<br>For example, "Go SF Giants! Such an amaazzzzzing feelin’!!!! \m/ :D".<br>Here "amaazzzing" gets converted to "amaazzing" and this becomes essential in the later stage of our pre-processing methodology.<br><br>
 
-<div style="page-break-after: always;"></div>
+<br><br>
 
 5. __Spell Correction__<br>
     We perform spelling correction in order to map the mispelled words to their nearest correct word form. We use the a really powerful spell correction algorithm developed by Peter Norvig<sup>[2]</sup><br><br>
