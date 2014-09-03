@@ -2,7 +2,7 @@
 --------
 
 ###<p style='text-align: center;'>Anmol Gulati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pawan Goyal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buddha Prakash</p>
-###<p style='text-align: center;'>Anmol Gulati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pawan Goyal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buddha Prakash</p>
+##<p style='text-align: center;'>IIT Kharagpur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Kharagpur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Kharagpur</p>
 ##Abstract
 ---------
 
