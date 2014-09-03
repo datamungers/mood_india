@@ -85,7 +85,6 @@ Based on our experiments we got the following accuracies of the above methods:<b
 
 <div style="page-break-after: always;"></div>
 ##References
-<pre>
 [1] : <a href>http://en.wikipedia.org/wiki/Twitter</a>
     
 [2] : <a href>http://norvig.com/spell-correct.html</a>
@@ -98,7 +97,7 @@ Based on our experiments we got the following accuracies of the above methods:<b
       "Good Friends, Bad News - Affect and Virality in Twitter", SocialComNet 2011.
 
 [5] : <a href>http://sentiwordnet.isti.cnr.it</a>
-</pre>
+
 
 
 
