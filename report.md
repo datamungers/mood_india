@@ -1,7 +1,7 @@
 ##<p style='text-align: center;'>Indian Mood Throughout the Day Inferred from Twitter</p>
 --------
 
-###<p style='text-align: center;'>Anmol Gulati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buddha Prakash</p>
+###<p style='text-align: center;'>Anmol Gulati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pawan Goyal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buddha Prakash</p>
 
 ##Abstract
 ---------
