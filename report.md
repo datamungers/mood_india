@@ -1,6 +1,8 @@
 ##<p style='text-align: center;'>Indian Mood Throughout the Day Inferred from Twitter</p>
 --------
 
+###<p style='text-align: center;'>Anmol Gulati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buddha Prakash</p>
+
 ##Abstract
 ---------
 
@@ -34,7 +36,7 @@ In our approach,data pre-processing is necessary in order to perform any data mi
 1. __Removing URL's, Image links and Retweets __<br>
     In general, URLs,Image links and Retweets do not contribute to analyze the sentiment in the informal text.<br>For example consider the sentence "@JohnDoe I lost all my bets at www.win.com :(".<br> Actually the above tweet is negative but because of the presence of the word "win" it might get considered as a Positive Tweet. In order to avoid this sort of failures, we must employ a technique to remove URL's,Image Links and Retweets.<br><br>
 2. __Removing Special Characters__<br>
-    Special Characters like "!@#%^&*" etc. don't convey any particular emotion or sentiment so they must also be filtered from the tweets.<br>For example, "Go SF Giants! Such an amaazzzzzing feelin’!!!! \m/ :D".<br> Here, if the special characters are not removed, they might concatenate with the other words and would make those words unavailable in the lexicon.<br><br>
+    Special Characters like "!@#%^&*" etc. don't convey <a href=""></a>ny particular emotion or sentiment so they must also be filtered from the tweets.<br>For example, "Go SF Giants! Such an amaazzzzzing feelin’!!!! \m/ :D".<br> Here, if the special characters are not removed, they might concatenate with the other words and would make those words unavailable in the lexicon.<br><br>
 3. __Tokenization and Conversion to Lower Case__<br>
     Tokenization of the tweets is then done to break the stream of text into tokens.These tokens are then also converted to lower case to maintain uniformity.<br><br>
 4. __Removing Reduntant Characters__<br>
