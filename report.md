@@ -31,7 +31,7 @@ In our work, we wrote a code for the GET Search API which to stream tweets speci
 -----------------------------------
 
 In our approach,data pre-processing is necessary in order to perform any data mining functionality. It becomes even more essential to our method because we use a lexicon-based approach for sentimental polarity classification.<br><br>
-
+<p>
 1. __Removing URL's, Image links and Retweets __<br>
     In general, URLs,Image links and Retweets do not contribute to analyze the sentiment in the informal text.<br>For example consider the sentence "@JohnDoe I lost all my bets at www.win.com :(".<br> Actually the above tweet is negative but because of the presence of the word "win" it might get considered as a Positive Tweet. In order to avoid this sort of failures, we must employ a technique to remove URL's,Image Links and Retweets.<br><br>
 2. __Removing Special Characters__<br>
@@ -50,7 +50,7 @@ In our approach,data pre-processing is necessary in order to perform any data mi
 7. __Stemming__<br>
     In most tweets, morphological variants of words have similar semantic interpretations but in our task. For this reason we use a stemming algorithm to reduce the words of the tweets to their root form. We use the Lancaster stemmer for our stemming task as we found it generally performs well in such tasks.<br>For example,['go','sf','giants','such','an','feeling'].<br> In the example above 'giants' is reduced to its root form 'giant' and 'feeling' gets reduced to 'feel'.
 
-
+</p>
 ##Methodology
 ----
 Simple sentiment analysis looks at individual words and surely does not necessarily capture the ‘true’ expressed emotion ignoring, say, context, negation and sarcasm. Nevertheless, many studies now show that this simple word-based approach can to some degree determine the sentiment of a text. With access to a annotated data set, machine learning can be used to boost the performance even further. Currently we study the performance of various lexicon based approaches and compare their accuracy. For testing the performance of the different methods we calculated their accuracy on about 10,000 annotated tweets which is made available by SemEval-2013<sup>[3]</sup> . We are currently working on developing a supervised learning algorithm to improve the accuracy of the classifier.
