@@ -43,7 +43,7 @@ In our approach,data pre-processing is necessary in order to perform any data mi
 <div style="page-break-after: always;"></div>
 
 5. __Spell Correction__<br>
-    We perform spelling correction in order to map the mispelled words to their nearest correct word form. We use the a really powerful spell correction algorithm developed by Peter Norvig$^{[2]}$<br><br>
+    We perform spelling correction in order to map the mispelled words to their nearest correct word form. We use the a really powerful spell correction algorithm developed by Peter Norvig<sup>[2]</sup><br><br>
 6. __Removing Stop Words__<br>
     Some extremely common words which would be of little value for sentiment polarity classification are excluded from the vocabulary entirely.We use the stop words list available in NLTK Library which is widely used for this purpose.<br><br>
 7. __Stemming__<br>
@@ -52,7 +52,7 @@ In our approach,data pre-processing is necessary in order to perform any data mi
 
 ##Methodology
 ----
-Simple sentiment analysis looks at individual words and surely does not necessarily capture the ‘true’ expressed emotion ignoring, say, context, negation and sarcasm. Nevertheless, many studies now show that this simple word-based approach can to some degree determine the sentiment of a text. With access to a annotated data set, machine learning can be used to boost the performance even further. Currently we study the performance of various lexicon based approaches and compare their accuracy. For testing the performance of the different methods we calculated their accuracy on about 10,000 annotated tweets which is made available by SemEval-2013$^{[3]}$ . We are currently working on developing a supervised learning algorithm to improve the accuracy of the classifier.
+Simple sentiment analysis looks at individual words and surely does not necessarily capture the ‘true’ expressed emotion ignoring, say, context, negation and sarcasm. Nevertheless, many studies now show that this simple word-based approach can to some degree determine the sentiment of a text. With access to a annotated data set, machine learning can be used to boost the performance even further. Currently we study the performance of various lexicon based approaches and compare their accuracy. For testing the performance of the different methods we calculated their accuracy on about 10,000 annotated tweets which is made available by SemEval-2013<sup>[3]</sup> . We are currently working on developing a supervised learning algorithm to improve the accuracy of the classifier.
 
 ###Bing Liu's Opinion Lexicon
 
@@ -61,12 +61,12 @@ We use this list to compute the score of each tweet depending on whether the tok
 
 ###AFINN Lexicon
 
-AFINN is a list of English words rated for valence with an integer between minus five (negative) and plus five (positive).The words have been manually labeled by Finn Årup Nielsen in 2009-2011. We use the newest lexicon which contains 2477 words$^{[4]}$
+AFINN is a list of English words rated for valence with an integer between minus five (negative) and plus five (positive).The words have been manually labeled by Finn Årup Nielsen in 2009-2011. We use the newest lexicon which contains 2477 words<sup>[4]</sup>
 We compute the sentiment score of a tweet by summing up the individual valence scores of each word in the AFINN list.
 
 ###SentiWordNet
 
-SentiWordNet$^{[5]}$ is a lexicon resource which comprises of synsets of WordNet which are assigned three sentiment scores: positivity, negativity and objectivity. The above approaches use a small set of  collected affective words. And thus these lexicons are limited to their domain and do not take into account the relation between words. SentiWordNet provides an extension for WordNet, and thus allows for assigning scores to different words based on the context in which they are used.
+SentiWordNet<sup>[5]</sup> is a lexicon resource which comprises of synsets of WordNet which are assigned three sentiment scores: positivity, negativity and objectivity. The above approaches use a small set of  collected affective words. And thus these lexicons are limited to their domain and do not take into account the relation between words. SentiWordNet provides an extension for WordNet, and thus allows for assigning scores to different words based on the context in which they are used.
 
 The part-of-speech tagging is first performed on the tokens of the tweet. The name and the pos tag of each token is then used to find all the synsets having the same context as the tokens. Then the word is considered to be positive if it has more synsets where the positive score is greater than negative score, negative if it has more entries where the negative scoreis greater than the positive score and neutral when there is no variation in the number of entries between positive and negative. The score of the whole tweet is then computed as the number of positive tokens minus the number of negative tokens in the tweet.
 
