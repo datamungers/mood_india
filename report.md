@@ -14,7 +14,7 @@ While there is no limit to the range of information conveyed by tweets and texts
 
 ##Data Description
 -------------------
-Tweets are short messages restricted to 140 characters in length.Due to the nature of this Microblogging Service(quick and short messages) people often use acronyms,make spelling mistakes,use emoticons and other characters that express special meanings.<br><br>
+Tweets are short messages restricted to 140 characters in length.Due to the nature of this Microblogging Service(quick and short messages) people often use acronyms,make spelling mistakes,use emoticons and other characters that express special meanings.<br>
 __Emoticons__ : These are facial expressions signifying the user's mood,pictorially represented using punctuation and letters.<br>
 __Target__    : Twitter users often use __'@'__ to refer to other users on the microblog.<br>
 __Hastags__   : Hashtags are words prefixed with __'#'__ and are used to mark topics.Users often use hashtags primarily  to increase visibility of their tweets.
