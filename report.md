@@ -3,7 +3,7 @@
 
 <p style='text-align: center;'>Anmol Gulati<sup>[1]</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pawan Goyal<sup>[1]</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buddha Prakash<sup>[1]</sup></p>
 
-<p style='text-align : center;'><pre>[1] : Indian Institute of Technology Kharagpur, Kharagpur, India-721302</pre> </p>
+<pre style='text-align : center;'>[1] : Indian Institute of Technology Kharagpur, Kharagpur, India-721302</pre>
 ##Abstract
 ---------
 
