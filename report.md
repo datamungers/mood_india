@@ -1,9 +1,9 @@
 ##<p style='text-align: center;'>Indian Mood Throughout the Day Inferred from Twitter</p>
 --------
 
-###<p style='text-align: center;'>Anmol Gulati<sup>[1]</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pawan Goyal<sup>[1]</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buddha Prakash<sup>[1]</sup></p>
+<p style='text-align: center;'>Anmol Gulati<sup>[1]</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pawan Goyal<sup>[1]</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buddha Prakash<sup>[1]</sup></p>
 
-####<p style='text-align : center;'>Indian Institute of Technology Kharagpur, Kharagpur, India-721302 </p>
+<p style='text-align : center;'>Indian Institute of Technology Kharagpur, Kharagpur, India-721302 </p>
 
 ##Abstract
 ---------
