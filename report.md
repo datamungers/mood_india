@@ -32,7 +32,7 @@ In our work, we wrote a code for the GET Search API which to stream tweets speci
 In our approach,data pre-processing is necessary in order to perform any data mining functionality. It becomes even more essential to our method because we use a lexicon-based approach for sentimental polarity classification.<br><br>
 <p>
 1. __Removing URL's, Image links and Retweets __<br>
-    In general, URLs,Image links and Retweets do not contribute to analyze the sentiment in the informal text.<br>For example consider the sentence "@John_Doe I lost all my bets at www.win.com :(".<br> Actually the above tweet is negative but because of the presence of the word "win" it might get considered as a Positive Tweet. In order to avoid this sort of failures, we must employ a technique to remove URL's,Image Links and Retweets.<br><br>
+    In general, URLs,Image links and Retweets do not contribute to analyze the sentiment in the informal text.<br>For example consider the sentence "@JohnDoe I lost all my bets at www.win.com :(".<br> Actually the above tweet is negative but because of the presence of the word "win" it might get considered as a Positive Tweet. In order to avoid this sort of failures, we must employ a technique to remove URL's,Image Links and Retweets.<br><br>
 2. __Removing Special Characters__<br>
     Special Characters like "!@#%^&*" etc. don't convey any particular emotion or sentiment so they must also be filtered from the tweets.<br>For example, "Go SF Giants! Such an amaazzzzzing feelin’!!!! \m/ :D".<br> Here, if the special characters are not removed, they might concatenate with the other words and would make those words unavailable in the lexicon.<br><br>
 3. __Tokenization and Conversion to Lower Case__<br>
