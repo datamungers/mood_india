@@ -87,16 +87,16 @@ Based on our experiments we got the following accuracies of the above methods:<b
 ##References
 [1] : [Twitter](http://en.wikipedia.org/wiki/Twitter "Twitter")
     
-[2] : <a href>http://norvig.com/spell-correct.html</a>
+[2] : [Peter Norvig's Spell Coorrect](http://norvig.com/spell-correct.html, "Spell Correct")
     
-[3] : SemEval'2013: SemEval-2013 Task 2: Sentiment Analysis in Twitter.
+[3] : [SemEval'2013: SemEval-2013 Task 2: Sentiment Analysis in Twitter.
       Preslav Nakov, Sara Rosenthal, Zornitsa Kozareva,Veselin Stoyanov, Alan Ritter, Theresa Wilson
-      <a href>http://www.aclweb.org/anthology/S/S13/S13-2052.pdf</a>
+      ](http://www.aclweb.org/anthology/S/S13/S13-2052.pdf, "Paper")
       
 [4] : Lars Kai Hansen, Adam Arvidsson, Finn Årup Nielsen, Elanor Colleoni, Michael Etter, 
       "Good Friends, Bad News - Affect and Virality in Twitter", SocialComNet 2011.
 
-[5] : <a href>http://sentiwordnet.isti.cnr.it</a>
+[5] : [SentiWordNet](http://sentiwordnet.isti.cnr.it, "SentiWordNet")
 
 
 
