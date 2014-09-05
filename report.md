@@ -79,7 +79,7 @@ Based on our experiments we got the following accuracies of the above methods:<b
 
 <div style="page-break-after: always;"></div>
 ##References
-[1] : [Twitter](http://en.wikipedia.org/wiki/Twitter "Twitter")
+[1] : [Wikipedia : Twitter](http://en.wikipedia.org/wiki/Twitter "Twitter")
     
 [2] : [Peter Norvig's Spell Coorrect](http://norvig.com/spell-correct.html, "Spell Correct")
     
