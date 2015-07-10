@@ -1,0 +1,6 @@
+This File Has Details about the ANEW Data : 
+
+
+Description,Word No.,Valence Mean,Valence SD,Arousal Mean,Arousal SD,Dominance Mean,Dominance SD,Word Frequency
+
+*NOTE -> The ANEW.csv is licensed, so can't be distributed online.

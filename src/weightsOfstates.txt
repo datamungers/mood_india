@@ -1,0 +1,32 @@
+Karnataka : 56.0
+Punjab : 67.0
+Orrisa : 46.0
+Andhra Pradesh : 35.0
+Jharkhand : 29.0
+Manipur : 81.0
+Meghalaya : 12.0
+Arunachal Pradesh : 82.0
+Tripura : 94.0
+Tamil Nadu : 90.0
+Maharashtra : 31.0
+Rajasthan : 13.0
+Bihar : 54.0
+Mizoram : 48.0
+Jammu and Kashmir : 45.0
+Himachal Pradesh : 61.0
+Assam : 62.0
+Andaman and Nicobar Islands : 81.0
+Gujrat : 72.0
+Goa : 65.0
+Chandigarh : 48.0
+Chattisgarh : 38.0
+Sikkim : 2.0
+Uttar Pradesh : 42.0
+Uttranchal : 86.0
+Haryana : 15.0
+Nagaland : 44.0
+Delhi : 34.0
+Daman and Diu : 36.0
+West Bengal : 32.0
+Madhya Pradesh : 99.0
+Kerala : 67.0

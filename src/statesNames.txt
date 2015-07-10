@@ -1,0 +1,32 @@
+IN-KA Karnataka
+IN-PB Punjab
+IN-OR Orrisa
+IN-AP Andhra Pradesh
+IN-JH Jharkhand
+IN-MN Manipur
+IN-ML Meghalaya
+IN-AR Arunachal Pradesh
+IN-TR Tripura
+IN-TN Tamil Nadu
+IN-MH Maharashtra
+IN-RJ Rajasthan
+IN-BR Bihar
+IN-MZ Mizoram
+IN-JK Jammu and Kashmir
+IN-HP Himachal Pradesh
+IN-AS Assam
+IN-AN Andaman and Nicobar Islands
+IN-GJ Gujarat
+IN-GA Goa
+IN-CH Chandigarh
+IN-CT Chattisgarh
+IN-SK Sikkim
+IN-UP Uttar Pradesh
+IN-UT Uttranchal
+IN-HR Haryana
+IN-NL Nagaland
+IN-DL Delhi
+IN-DD Daman and Diu
+IN-WB West Bengal
+IN-MP Madhya Pradesh
+IN-KL Kerala
